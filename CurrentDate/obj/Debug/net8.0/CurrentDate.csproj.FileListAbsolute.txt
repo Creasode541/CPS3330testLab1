@@ -1,0 +1,15 @@
+/Users/michaelbanko/Documents/VSC/CurrentDate/bin/Debug/net8.0/CurrentDate
+/Users/michaelbanko/Documents/VSC/CurrentDate/bin/Debug/net8.0/CurrentDate.deps.json
+/Users/michaelbanko/Documents/VSC/CurrentDate/bin/Debug/net8.0/CurrentDate.runtimeconfig.json
+/Users/michaelbanko/Documents/VSC/CurrentDate/bin/Debug/net8.0/CurrentDate.dll
+/Users/michaelbanko/Documents/VSC/CurrentDate/bin/Debug/net8.0/CurrentDate.pdb
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/CurrentDate.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/CurrentDate.AssemblyInfoInputs.cache
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/CurrentDate.AssemblyInfo.cs
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/CurrentDate.csproj.CoreCompileInputs.cache
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/CurrentDate.sourcelink.json
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/CurrentDate.dll
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/refint/CurrentDate.dll
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/CurrentDate.pdb
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/CurrentDate.genruntimeconfig.cache
+/Users/michaelbanko/Documents/VSC/CurrentDate/obj/Debug/net8.0/ref/CurrentDate.dll

@@ -1,0 +1,15 @@
+/Users/michaelbanko/Documents/VSC/LINQLab/bin/Debug/net8.0/LINQLab
+/Users/michaelbanko/Documents/VSC/LINQLab/bin/Debug/net8.0/LINQLab.deps.json
+/Users/michaelbanko/Documents/VSC/LINQLab/bin/Debug/net8.0/LINQLab.runtimeconfig.json
+/Users/michaelbanko/Documents/VSC/LINQLab/bin/Debug/net8.0/LINQLab.dll
+/Users/michaelbanko/Documents/VSC/LINQLab/bin/Debug/net8.0/LINQLab.pdb
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.AssemblyInfoInputs.cache
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.AssemblyInfo.cs
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.csproj.CoreCompileInputs.cache
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.sourcelink.json
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.dll
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/refint/LINQLab.dll
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.pdb
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.genruntimeconfig.cache
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/ref/LINQLab.dll

@@ -1,0 +1,32 @@
+<studentInfo>
+    <name>Michael Banko</name>
+    <enrollmentDay>March 10 2024</enrollmentDay>
+    <courses>
+        <courseInfo>
+            <code>3330</code>
+            <courseTitle>Software Development with Frameworks</courseTitle>
+            <degree>CPS</degree>
+        </courseInfo>
+        <courseInfo>
+            <code>4222</code>
+            <courseTitle>Principles of Networking</courseTitle>
+            <degree>CPS</degree>
+        </courseInfo>
+        <courseInfo>
+            <code>4951</code>
+            <courseTitle>Senior Capstone</courseTitle>
+            <degree>CPS</degree>
+        </courseInfo>
+        <courseInfo>
+            <code>3525</code>
+            <courseTitle>Technology in Unix / Linux</courseTitle>
+            <degree>CPS</degree>
+        </courseInfo>
+        <courseInfo>
+            <code>3051</code>
+            <courseTitle>Computer Technology in Today's Society</courseTitle>
+            <degree>ID</degree>
+        </courseInfo>
+    </courses>
+    <address>1000 Morris Ave</address>
+</studentInfo>

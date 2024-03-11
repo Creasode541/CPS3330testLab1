@@ -1,0 +1,15 @@
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/bin/Debug/net8.0/Exercise2
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/bin/Debug/net8.0/Exercise2.deps.json
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/bin/Debug/net8.0/Exercise2.runtimeconfig.json
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/bin/Debug/net8.0/Exercise2.dll
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/bin/Debug/net8.0/Exercise2.pdb
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/Exercise2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/Exercise2.AssemblyInfoInputs.cache
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/Exercise2.AssemblyInfo.cs
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/Exercise2.csproj.CoreCompileInputs.cache
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/Exercise2.sourcelink.json
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/Exercise2.dll
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/refint/Exercise2.dll
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/Exercise2.pdb
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/Exercise2.genruntimeconfig.cache
+/Users/michaelbanko/Documents/VSC/LINQExercises/Exercise2/obj/Debug/net8.0/ref/Exercise2.dll

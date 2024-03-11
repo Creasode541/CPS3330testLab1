@@ -1,0 +1,15 @@
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/Influencer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/Influencer.AssemblyInfoInputs.cache
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/Influencer.AssemblyInfo.cs
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/Influencer.csproj.CoreCompileInputs.cache
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/Influencer.sourcelink.json
+/Users/michaelbanko/Documents/VSC/Influencer/bin/Debug/net8.0/Influencer
+/Users/michaelbanko/Documents/VSC/Influencer/bin/Debug/net8.0/Influencer.deps.json
+/Users/michaelbanko/Documents/VSC/Influencer/bin/Debug/net8.0/Influencer.runtimeconfig.json
+/Users/michaelbanko/Documents/VSC/Influencer/bin/Debug/net8.0/Influencer.dll
+/Users/michaelbanko/Documents/VSC/Influencer/bin/Debug/net8.0/Influencer.pdb
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/Influencer.dll
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/refint/Influencer.dll
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/Influencer.pdb
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/Influencer.genruntimeconfig.cache
+/Users/michaelbanko/Documents/VSC/Influencer/obj/Debug/net8.0/ref/Influencer.dll

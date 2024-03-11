@@ -1,0 +1,15 @@
+/Users/michaelbanko/Documents/VSC/bin/Debug/net8.0/VSC
+/Users/michaelbanko/Documents/VSC/bin/Debug/net8.0/VSC.deps.json
+/Users/michaelbanko/Documents/VSC/bin/Debug/net8.0/VSC.runtimeconfig.json
+/Users/michaelbanko/Documents/VSC/bin/Debug/net8.0/VSC.dll
+/Users/michaelbanko/Documents/VSC/bin/Debug/net8.0/VSC.pdb
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/VSC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/VSC.AssemblyInfoInputs.cache
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/VSC.AssemblyInfo.cs
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/VSC.csproj.CoreCompileInputs.cache
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/VSC.dll
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/refint/VSC.dll
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/VSC.pdb
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/VSC.genruntimeconfig.cache
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/ref/VSC.dll
+/Users/michaelbanko/Documents/VSC/obj/Debug/net8.0/VSC.sourcelink.json

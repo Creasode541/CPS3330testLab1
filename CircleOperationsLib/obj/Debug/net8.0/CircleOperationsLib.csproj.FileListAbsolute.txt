@@ -1,0 +1,12 @@
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/bin/Debug/net8.0/CircleOperationsLib.deps.json
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/bin/Debug/net8.0/CircleOperationsLib.dll
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/bin/Debug/net8.0/CircleOperationsLib.pdb
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/CircleOperationsLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/CircleOperationsLib.AssemblyInfoInputs.cache
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/CircleOperationsLib.AssemblyInfo.cs
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/CircleOperationsLib.csproj.CoreCompileInputs.cache
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/CircleOperationsLib.sourcelink.json
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/CircleOperationsLib.dll
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/refint/CircleOperationsLib.dll
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/CircleOperationsLib.pdb
+/Users/michaelbanko/Documents/VSC/CircleOperationsLib/obj/Debug/net8.0/ref/CircleOperationsLib.dll
