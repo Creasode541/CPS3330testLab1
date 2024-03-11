@@ -13,3 +13,6 @@
 /Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.pdb
 /Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.genruntimeconfig.cache
 /Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/ref/LINQLab.dll
+/Users/michaelbanko/Documents/VSC/LINQLab/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.csproj.AssemblyReference.cache
+/Users/michaelbanko/Documents/VSC/LINQLab/obj/Debug/net8.0/LINQLab.csproj.CopyComplete

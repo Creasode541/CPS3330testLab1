@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MINN1YW0FKBhrWICGVUai8Q/iuyjB87BfbUa+/kDxtSVIydcDsVia+fITEOQp5zs2/qCN89ZTKNNOiWByrXhbg==",
+  "dgSpecHash": "hGblCc47fiCu9wX/tpKpAYJICIl6jk61TEjfg/YYox33NGS4wM7g8IE9S7W3VM53KkqB2OIFc19ZIhJECSdrAQ==",
   "success": true,
   "projectFilePath": "/Users/michaelbanko/Documents/VSC/LINQLab/LINQLab.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/michaelbanko/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

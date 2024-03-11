@@ -1,128 +1,54 @@
 ﻿// Michael Banko - CPS3330 Lab 5
-// we can use LINQ to sort an array of StudentInfo objects
-using System.Xml.Linq;
+using System;
+using System.Linq;
 
-var students = new[]
+class ParallelizingWithPLINQ
 {
-    new StudentInfo { ID = 2, FirstName = "Jane", LastName = "Doe", GradeLevel = 3 },
-    new StudentInfo { ID = 1, FirstName = "John", LastName = "Doe", GradeLevel = 1 },
-    new StudentInfo { ID = 50001, FirstName = "Yulia", LastName = "Kumar", GradeLevel = 6 },
-    new StudentInfo { ID = 1228548, FirstName = "Michael", LastName = "Banko", GradeLevel = 16}
-};
+   static void Main()
+   {
+      var random = new Random();
 
-// LINQ query to order students by grade level
-var orderedStudents = 
-    from s in students
-    where s.ID >= 50000
-    orderby s.ID
-    select s;
+      // create array of random ints in the range 1-999
+      int[] values = {1, 2, 2, 8, 5, 4, 8};
 
-foreach (var student in orderedStudents)
-    Console.WriteLine($"{student.FirstName} has an ID number of {student.ID}");
+      // time the Min, Max and Average LINQ extension methods
+      Console.WriteLine(
+         "Min, Max and Average with LINQ to Objects using a single core");
+      var linqStart = DateTime.Now; // get time before method calls
+      var linqMin = values.Min();
+      var linqMax = values.Max();
+      var linqAverage = values.Average();
+      var linqEnd = DateTime.Now; // get time after method calls
 
-var numbers = new List<int> {1, 2, 2, 8, 5, 4, 8};
+      // display results and total time in milliseconds
+      var linqTime = linqEnd.Subtract(linqStart).TotalMilliseconds;
+      DisplayResults(linqMin, linqMax, linqAverage, linqTime);
 
-Console.WriteLine($"Does the list have any numbers? {numbers.Any()}");
-Console.WriteLine($"Total count of numbers: {numbers.Count()}");
-Console.WriteLine($"First number: {numbers.First()}");
-Console.WriteLine($"Last number: {numbers.Last()}");
+      // time the Min, Max and Average PLINQ extension methods
+      Console.WriteLine(
+         "\nMin, Max and Average with PLINQ using multiple cores");
+      var plinqStart = DateTime.Now; // get time before method calls
+      var plinqMin = values.AsParallel().Min();
+      var plinqMax = values.AsParallel().Max();
+      var plinqAverage = values.AsParallel().Average();
+      var plinqEnd = DateTime.Now; // get time after method calls
 
+      // display results and total time in milliseconds
+      var plinqTime = plinqEnd.Subtract(plinqStart).TotalMilliseconds;
+      DisplayResults(plinqMin, plinqMax, plinqAverage, plinqTime);
 
-IEnumerable<int> distinctNumbers = numbers.Distinct();
-foreach (int number in distinctNumbers)
-    Console.WriteLine(number);
+      // display time difference as a percentage
+      Console.WriteLine("\nPLINQ took " +
+         $"{((linqTime - plinqTime) / linqTime):P0}" +
+         " less time than LINQ");
+   }
 
-List<StudentInfo> studentList = new List<StudentInfo>
-{
-    students[0],
-    students[1],
-    students[2],
-    students[3]
-};
-studentList.Insert(2, students[0]);
-
-studentList.ForEach(s => Console.WriteLine(s.FirstName));
-studentList.Count();
-studentList.TrimExcess();
-studentList.Remove(students[2]);
-
-
-var studentList2 = studentList; // Assuming studentList is the list of students
-
-var sortedStudents = from student in studentList2
-                     let upperLastName = student.LastName.ToUpper()
-                     orderby upperLastName descending
-                     select new { student.FirstName, UpperLastName = upperLastName };
-
-sortedStudents.ToList().ForEach(s => Console.WriteLine($"{s.FirstName},{s.UpperLastName}"));
-
-
-
-        XElement studentInfo = new XElement("studentInfo",
-            new XElement("name", "Dr. Yulia Kumar"),
-            new XElement("enrollmentDay", "March 2 2024"),
-            new XElement("courses",
-                new XElement("courseInfo",
-                    new XElement("code", "3330"),
-                    new XElement("courseTitle", "Software Development with Frameworks"),
-                    new XElement("degree", "CPS")
-                ),
-                new XElement("courseInfo",
-                    new XElement("code", "4982"),
-                    new XElement("courseTitle", "Special Topics in IT"),
-                    new XElement("degree", "IT")
-                )
-            ),
-            new XElement("address", "1000 Morris avenue")
-        );
-
-        XDocument studentDocument = new XDocument(
-            new XDeclaration("1.0", "utf-8", "yes"),
-            studentInfo
-        );
-
-        Console.WriteLine(studentDocument);
-try { 
-string filePath = @"/Users/michaelbanko/Documents/VSC/LINQLab"; // Replace with yours
-string xmlString = File.ReadAllText(filePath);
-Console.WriteLine(xmlString);
-XDocument doc = XDocument.Parse(xmlString); // Parse the XML string into an XDocument
-
-// Use LINQ to retrieve specific information
-var studentName = doc.Descendants("name").First().Value;
-var enrollmentDay = (DateTime)doc.Descendants("enrollmentDay").First();
-var courseCodes = doc.Descendants("code").Select(c => c.Value).ToList();
-var courseTitles = doc.Descendants("courseTitle").Select(ct => ct.Value).ToList();
-var courseDegrees = doc.Descendants("degree").Select(d => d.Value).ToList();
-var address = doc.Descendants("address").First().Value;
-
-// Display the information
-Console.WriteLine("Student Name: " + studentName);
-Console.WriteLine("Enrollment Day: " + enrollmentDay.ToString("yyyy-MM-dd"));
-for (int i = 0; i < courseTitles.Count; i++)
-{
-    Console.WriteLine("Course Code: " + courseCodes[i]);
-    Console.WriteLine("Course Title: " + courseTitles[i]);
-    Console.WriteLine("Degree: " + courseDegrees[i]);
-}
-Console.WriteLine("Address: " + address);
-}
-catch (Exception ex)
-{
-    Console.WriteLine("The file could not be read:");
-    Console.WriteLine(ex.Message);
+   // displays results and total time in milliseconds
+   static void DisplayResults(
+      int min, int max, double average, double time)
+   {
+      Console.WriteLine($"Min: {min}\nMax: {max}\n" + 
+         $"Average: {average:F}\nTotal time in milliseconds: {time:F}");
+   }
 }
 
-public class StudentInfo : IComparable<StudentInfo> {
-    public int ID { get; set; }
-    public required string FirstName { get; set; }
-    public required string LastName { get; set; }
-    public int GradeLevel { get; set; }
-
-    // Implement the CompareTo method
-    public int CompareTo(StudentInfo other)
-    {
-        // sorts students by their grade level 
-        return this.GradeLevel.CompareTo(other.GradeLevel);
-    }
-}
