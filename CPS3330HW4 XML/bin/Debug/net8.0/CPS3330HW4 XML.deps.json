@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CPS3330HW4 XML/1.0.0": {
+        "runtime": {
+          "CPS3330HW4 XML.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CPS3330HW4 XML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
